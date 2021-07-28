@@ -2,35 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
     
-    <li class= indicator></li>
-</html>
-<div id = "slides-container" class = "clides">
-   <div class="slide active"> Slide 1 </div>
-    <div class="slide">Slide 2</div> 
-    <div class="slide">Slide 3</div> 
-    <div class="slide">Slide 4</div> 
-    <div class="slide">Slide 5</div> 
-</div> 
-<div id = "controls-container" class = "controls">
-    <span id= "pause-btn" class= "control control-pause"><i class="far fa-pause-circle"></i></span>
-    <span id= "prev" class= "control control-prev"><i class="fas fa-angle-left"></i></span>
-    <span id= "next" class= "control control-next"><i class="fas fa-anfle-right"></i></span>
-    </div>
-    
-    <ol id= "indicators-container" class= "indicators">
-<li class= "inticator active" data-slide-to="0"></li>
-<li class= "indicator" data-slide-to="1"></li>
-<li class= "indicator" data-slide-to="2"></li>
-<li class= "indicator" data-slide-to="3"></li>
-<li class= "indicator" data-slide-to="4"></li>
-    </ol>
-    <script src= "carousel-constructor.js"></script>
-    <script src= "main.js"></script>
+    <div class="carousel">
+        <div class="slides">
+          <div class="slide active" style="background-image: url(assets/img/180f9313e0fdb91ec19b5f5081d90e91.jpg)"></div>
+          <div class="slide" style="background-image: url(assets/img/3194b6ca65aeef94c05ac78a4433c6e7.jpg)"></div>
+          <div class="slide" style="background-image: url(assets/img/5deb1fb2f99fa969d4794804e850dbfd.jpg)"></div>
+          <div class="slide" style="background-image: url(assets/img/9ae4161237f8e124a995f486706034ed.jpg)"></div>
+          <div class="slide" style="background-image: url(assets/img/da59bc7f2c9ba9d9a9538783656194b8.jpg)"></div>
+        </div>
+        <ol class="indicators">
+            <li class="indicator active" data-slide-to="0"></li>
+            <li class="indicator" data-slide-to="1"></li>
+            <li class="indicator" data-slide-to="2"></li>
+            <li class="indicator" data-slide-to="3"></li>
+            <li class="indicator" data-slide-to="4"></li>
+          </ol>
+<div class="controls">
+    <span id="pause-play-btn" class="control-pause"><i class="far fa-pause-circle"></i></span>
+    <span id="prev-btn" class="control-prev"><i class="fas fa-angle-left"></i></span>
+    <span id="next-btn" class="control-next"><i class="fas fa-angle-right"></i></span>
+  </div>
+</div>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
