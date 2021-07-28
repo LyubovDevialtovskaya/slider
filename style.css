@@ -100,4 +100,44 @@ body {
     margin:0;
     
     }
-    
+    body {
+        margin: 0;
+        font-family: Arial;
+        }
+        
+        .indicators,
+        .controls {
+        display: flex;
+        gap: 10 px;
+        padding: 20 px;
+        
+        }
+        .indicator,
+        .control {
+        background-color: #ccc;
+        padding: 0;
+        margin:0;
+        user-select: none;
+        cursor: pointer;
+        height: 40px;
+        min-width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        }
+        
+        .indicator.active {
+        background-color: red;
+        
+        } 
+        
+        .indicators{
+        margin-top: -60px;
+        margin-left: 180px;
+        list-style: none;
+        padding: 0;
+        margin:0;
+        
+        }
+        
