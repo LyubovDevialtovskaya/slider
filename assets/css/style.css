@@ -1,7 +1,3 @@
-/*
-essential styles:
-these make the slideshow work
-*/
 
 .slides {
     position: relative;
@@ -27,10 +23,7 @@ these make the slideshow work
     z-index: 2;
 }
 
-/*
-non-essential styles:
-just for appearance; change whatever you want
-*/
+
 
 .slide {
     font-size: 40px;

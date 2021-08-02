@@ -10,11 +10,11 @@ const RIGHT_ARROW = 'ArrowRight';
 const FA_PAUSE = '<i class="far fa-pause-circle"></i>';
 const FA_PLAY = '<i class="far fa-play-circle"></i>';
 
-// activate controls, if javascript is enabled
-indContainer.style.display = 'flex'; // flex
-document.querySelector('.controls').style.display = 'block'; // block
 
-// carousel basic engine
+indContainer.style.display = 'flex'; 
+document.querySelector('.controls').style.display = 'block'; 
+
+e
 let gotoNSlide = (n) => {
   slideItems[currentSlide].classList.toggle('active');
   indItems[currentSlide].classList.toggle('active');
@@ -27,7 +27,7 @@ let gotoNextSlide = () => gotoNSlide(currentSlide + 1);
 
 let gotoPrevSlide = () => gotoNSlide(currentSlide - 1);
 
-// controls
+
 let playbackStatus = true;
 let pausePlayBtn = document.querySelector('#pause-play-btn');
 let nextBtn = document.querySelector('#next-btn');
@@ -64,7 +64,7 @@ pausePlayBtn.addEventListener('click', clickPausePlayBtn);
 nextBtn.addEventListener('click', clickNextBtn);
 prevBtn.addEventListener('click', clickPrevBtn);
 
-// indicators
+
 let clickIndicatorBtn = (e) => {
   let target = e.target;
 
@@ -74,10 +74,10 @@ let clickIndicatorBtn = (e) => {
   }
 };
 
-// use delegation to optimize the event handler
+/
 indContainer.addEventListener('click', clickIndicatorBtn);
 
-// set keyboard controls
+
 let pressKeyControl = (e) => {
   if (e.key === LEFT_ARROW) clickPrevBtn();
   if (e.key === RIGHT_ARROW) clickNextBtn();
@@ -86,7 +86,6 @@ let pressKeyControl = (e) => {
 
 document.addEventListener('keydown', pressKeyControl);
 
-// add swipe support
 let carousel = document.querySelector('.carousel');
 let swipeStartX = null;
 let swipeEndX = null;
