@@ -35,13 +35,13 @@ body {
 
 .fa-angle-left,
 .fa-angle-right {
-  color: rgba(200, 150, 200, 0.8);
+  color: rgba(252, 85, 93, 0.8);
   font-size: 60px;
 }
 
 .fa-play-circle,
 .fa-pause-circle {
-  color: rgba(200, 150, 200, 0.8);
+  color: rgba(250, 33, 44, 0.8);
   font-size: 30vh;
   font-style: normal;
 }
@@ -142,7 +142,7 @@ body {
 
 .control-prev:hover,
 .control-prev:focus {
-  text-shadow: 0 0 20px #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .control-next {
@@ -152,7 +152,7 @@ body {
 
 .control-next:hover,
 .control-next:focus {
-  text-shadow: 0 0 20px #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .indicators {
@@ -176,7 +176,7 @@ body {
   width: 100px;
   height: 20px;
   margin: -43px 7.5px 0;
-  border: 3px solid rgba(236, 47, 47, 0.8);
+  border: 3px solid rgba(233, 37, 37, 0.8);
   border-radius: 5px;
   outline: none;
   background: none;
@@ -189,14 +189,14 @@ body {
 
 .indicator.active {
   border-color: #ffffff;
-  background-color: rgba(236, 98, 98, 0.8);
+  background-color: rgba(255, 51, 51, 0.8);
 }
 
 h3 {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 50px;
-  color: #bd3d3d;
+  color: #c896c8;
   font-size: 20px;
   text-shadow: 0.5px 0.5px #fff;
   z-index: 5;
