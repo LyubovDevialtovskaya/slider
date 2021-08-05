@@ -1,11 +1,3 @@
-JS_slider/assets/js/carousel.js /
-@NickMostovoi
-NickMostovoi Правки, footer + comb
-Latest commit ed1a359 on 27 Jun
- History
- 1 contributor
-149 lines (121 sloc)  4.58 KB
-  
 class Carousel {
   constructor(p) {
     let settings = { ...{ containerID: '#carousel', interval: 5000, isPlaying: true, slideID: '.slide' }, ...p };
