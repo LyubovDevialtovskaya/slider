@@ -48,7 +48,7 @@ body {
 
 .slides {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
 }
@@ -59,14 +59,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 40px;
+  padding: 20px;
   -webkit-transition: opacity 2.5s;
   -o-transition: opacity 2.5s;
   transition: opacity 2.5s;
   opacity: 0;
   background-position: 50% 50%;
   background-size: cover;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .slide a {
@@ -123,7 +123,7 @@ body {
   -o-transition: opacity 0.25s ease-in 0.25s;
   transition: opacity 0.25s ease-in 0.25s;
   opacity: 1;
-  text-shadow: 0 0 50px #ffffff;
+  text-shadow: 0 0 30px #ffffff;
 }
 
 .control-pause span {
@@ -142,7 +142,7 @@ body {
 
 .control-prev:hover,
 .control-prev:focus {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0210px #ffffff;
 }
 
 .control-next {
@@ -152,7 +152,7 @@ body {
 
 .control-next:hover,
 .control-next:focus {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 20px #ffffff;
 }
 
 .indicators {
