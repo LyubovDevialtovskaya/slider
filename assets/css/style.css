@@ -175,8 +175,8 @@ body {
 .indicator {
   width: 10px;
   height: 10px;
-  margin: -43px 7.5px 0;
-  border: 10px solid rgba(233, 37, 37, 0.8);
+  margin: -10px 5px 0;
+  border: 10px solid rgba(247, 166, 166, 0.8);
   border-radius: 10px;
   outline: none;
   background: none;
