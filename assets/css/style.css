@@ -173,11 +173,11 @@ body {
 }
 
 .indicator {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   margin: -43px 7.5px 0;
-  border: 3px solid rgba(233, 37, 37, 0.8);
-  border-radius: 5px;
+  border: 10px solid rgba(233, 37, 37, 0.8);
+  border-radius: 10px;
   outline: none;
   background: none;
   background-clip: padding-box;
