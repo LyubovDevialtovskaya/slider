@@ -35,20 +35,20 @@ body {
 
 .fa-angle-left,
 .fa-angle-right {
-  color: rgba(221, 49, 49, 0.8);
-  font-size: 30px;
+  color: rgba(248, 38, 38, 0.8);
+  font-size: 60px;
 }
 
 .fa-play-circle,
 .fa-pause-circle {
-  color: rgba(221, 49, 49, 0.8);
-  font-size: 15vh;
+  color: rgba(248, 38, 38, 0.8);
+  font-size: 30vh;
   font-style: normal;
 }
 
 .slides {
   position: relative;
-  height: 70vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -78,8 +78,8 @@ body {
 }
 
 .slide.active {
-  z-index: 1;
-  opacity: 1;
+  z-index: 2;
+  opacity: 2;
 }
 
 .controls {
@@ -176,7 +176,7 @@ body {
   width: 100px;
   height: 20px;
   margin: -43px 7.5px 0;
-  border: 3px solid rgba(221, 49, 49, 0.8);
+  border: 3px solid rgba(248, 38, 38, 0.8);
   border-radius: 5px;
   outline: none;
   background: none;
@@ -189,18 +189,10 @@ body {
 
 .indicator.active {
   border-color: #ffffff;
-  background-color: rgba(221, 49, 49, 0.8);
+  background-color: rgba(248, 38, 38, 0.8);
 }
 
-h3 {
-  position: absolute;
-  top: 0;
-  right: 50px;
-  color: #c896c8;
-  font-size: 20px;
-  text-shadow: 0.5px 0.5px #fff;
-  z-index: 5;
-}
+
 
 @media (min-width: 992px) {
   .control-pause,
