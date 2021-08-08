@@ -35,13 +35,13 @@ body {
 
 .fa-angle-left,
 .fa-angle-right {
-  color: rgba(248, 38, 38, 0.8);
+  color: rgba(252, 243, 243, 0.8);
   font-size: 60px;
 }
 
 .fa-play-circle,
 .fa-pause-circle {
-  color: rgba(248, 38, 38, 0.8);
+  color: rgba(236, 206, 206, 0.8);
   font-size: 30vh;
   font-style: normal;
 }
@@ -176,7 +176,7 @@ body {
   width: 50px;
   height: 50px;
   margin: -43px 7.5px 0;
-  border: 3px solid rgba(248, 38, 38, 0.8);
+  border: 3px solid rgba(119, 163, 68, 0.8);
   border-radius: 5px;
   outline: none;
   background: none;
@@ -189,12 +189,12 @@ body {
 
 .indicator.active {
   border-color: #ffffff;
-  background-color: rgba(248, 38, 38, 0.8);
+  background-color: rgba(119, 163, 68, 0.8)
 }
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .control-pause,
   .control-prev,
   .control-next {
@@ -205,7 +205,7 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .control-prev,
   .control-next {
     display: none;
