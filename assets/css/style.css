@@ -65,7 +65,7 @@ body {
   transition: opacity 2.5s;
   opacity: 0;
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: 100%;
   font-size: 40px;
 }
 
