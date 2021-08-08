@@ -142,17 +142,17 @@ body {
 
 .control-prev:hover,
 .control-prev:focus {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 30px #ffffff;
 }
 
 .control-next {
   right: 0;
-  width: 10%;
+  width: 30%;
 }
 
 .control-next:hover,
 .control-next:focus {
-  text-shadow: 0 0 10px #ffffff;
+  text-shadow: 0 0 30px #ffffff;
 }
 
 .indicators {
@@ -173,8 +173,8 @@ body {
 }
 
 .indicator {
-  width: 100px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   margin: -43px 7.5px 0;
   border: 3px solid rgba(248, 38, 38, 0.8);
   border-radius: 5px;
