@@ -78,8 +78,8 @@ body {
 }
 
 .slide.active {
-  z-index: 2;
-  opacity: 2;
+  z-index: 1;
+  opacity: 1;
 }
 
 .controls {
