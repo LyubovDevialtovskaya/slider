@@ -174,7 +174,7 @@ body {
 
 .indicator {
   width: 20px;
-  height: 20px;
+  height: 100px;
   margin: -43px 7.5px 0;
   border: 3px solid rgba(119, 163, 68, 0.8);
   border-radius: 5px;
@@ -194,7 +194,7 @@ body {
 
 
 
-@media (min-width: 990px) {
+@media (min-width: 1020px) {
   .control-pause,
   .control-prev,
   .control-next {
