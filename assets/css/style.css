@@ -12,11 +12,11 @@
 }
 
 .fa-pause-circle:before {
-  content: "ᐅ";
+  content: "ll";
 }
 
 .fa-play-circle:before {
-  content: "ll";
+  content: "ᐅ";
 }
 
 * {
